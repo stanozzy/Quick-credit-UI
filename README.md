@@ -1,6 +1,7 @@
 # Quick-credit-UI
 
-This is the UI for Quick Credit, an online lending platform that provides short term soft loans to individuals. This
+This is the UI for Quick Credit.
+Quick Credit is an online lending platform that provides short term soft loans to individuals. This
 helps solve problems of financial inclusion as a way to alleviate poverty and empower low
 income earners.
 The project is managed with a Pivotal tracker board. [View the board here](https://www.pivotaltracker.com/n/projects/2330172)
