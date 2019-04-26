@@ -354,6 +354,19 @@ body{
     font-size: 28px;
 }
 
+.ammounts{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 20px;
+    font-family: monospace
+}
+
+.ammounts:hover{
+    background-color: darkgray;
+}
+
 
 
 
