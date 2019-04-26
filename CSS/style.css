@@ -366,6 +366,23 @@ body{
 .ammounts:hover{
     background-color: darkgray;
 }
+.btn{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+.btn a{
+    font-family: monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgba(210, 105, 30, 0.29)
+}
 
 
 
