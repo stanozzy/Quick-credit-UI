@@ -1,15 +1,18 @@
 body{
-	color: darkgray;
+	color: white;
 	font-family: 'dosis';
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
 .pageContent{
     background-color: rgba(169, 169, 169, 0.17);
-    padding: 15px;
+    padding: 7px;
     max-width: 800px;
     text-align: justify;
+    /*margin-left: 20%;
+    margin-right: 20%;*/
     margin: 0 auto;
     
 }
@@ -318,6 +321,37 @@ body{
     .formWrapper{
         width:95%;
     }
+}
+
+#avatar{
+    width: 120px;
+    float: left;
+    margin: 20px;
+}
+#welcome{
+    clear: left;
+    font-size: 24px;
+    font-weight: 600
+}
+
+.links{
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    background-color: rgba(169, 169, 169, 0.24);
+    width: 75%;
+    margin: 0 auto;
+    border-bottom-style: solid;
+        
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover{
+    font-size: 28px;
 }
 
 
