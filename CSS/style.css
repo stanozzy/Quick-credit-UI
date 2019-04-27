@@ -321,6 +321,9 @@ body{
     .formWrapper{
         width:95%;
     }
+    .pageContent{
+        padding: 20px;
+    }
 }
 
 #avatar{
