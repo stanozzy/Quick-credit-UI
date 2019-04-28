@@ -1,3 +1,4 @@
+/*STYLING FOR QUICK CREDIT WEBSITE */
 body{
 	color: white;
 	font-family: 'dosis';
@@ -6,28 +7,22 @@ body{
     padding: 0;
 }
 
+/* wrapper for page content*/
 .pageContent{
     background-color: rgba(169, 169, 169, 0.17);
     padding: 7px;
     max-width: 800px;
     text-align: justify;
-    /*margin-left: 20%;
-    margin-right: 20%;*/
     margin: 0 auto;
     
 }
+/* sign-in and sign-up forms*/
 .formContainer{
-    color: white;
-    background-color: rgba(169, 169, 169, 0.26);    
+    background-color: rgba(169, 169, 169, 0.26);
     padding: 0px 15px 15px 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 450px;
-    height: 300px;
-    box-sizing: border-box;
-    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
 }
 .formContainer h2{
     color: chocolate;
@@ -56,8 +51,9 @@ body{
 .formContainer input[type="submit"]:hover{
     background-color: darkgray;
     
-}
+} 
 
+/* Large screens */
 @media (min-width: 1280px){
     html { 
   background: url(../images/background.png) no-repeat center center fixed; 
@@ -66,6 +62,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
+    /* Acknowledge icons author only when the icons are visible */
     #attrib{
     display: none;
 }
@@ -96,7 +93,7 @@ body{
 }
 
 }
-    
+    /* small screens */
     @media (max-width: 600px){
         html{
             background: url(../images/smallScreenBkg.jpg) no-repeat center center fixed;
@@ -118,7 +115,8 @@ body{
         }
         
 
-    #menu_bar{
+        /* hide menu bar when screen size is less than 600px wide*/
+        #menu_bar{
         display: none;
         
     }
@@ -142,11 +140,10 @@ body{
 
     } 
     
-    #smallScreenMenuBar{
+/* for small screens, use icons instead of text in menu bar */    
+#smallScreenMenuBar{
     height: 55px;
-    background-color: darkgray;    
-    /*background-image: linear-gradient(to left, black, #221506); */
-
+    background-color: darkgray;
 }
 #topbar{
     height: 85px;
@@ -255,14 +252,13 @@ body{
         margin-left: 2px;
         margin-right: 2px;
     }
+    .formContainer{
+        margin-left: 30px;
+    }
 
     
 }
 
-
-.msg{
-        float: right;
-}
 .msg a{
     color: chocolate;
 }
@@ -270,56 +266,12 @@ body{
     text-transform: uppercase;
 }
 
-.formWrapper{
-    color: white;
-    background-color: rgba(169, 169, 169, 0.26);    
-    padding: 0px 15px 15px 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 450px;
-    height: 490px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    margin-top: 100px
-}
-.formWrapper h2{
-    color: chocolate;
-    text-align: center;
-    font-weight: 200;
-}
 
-.formWrapper .inputField{
-    position: relative;
-    margin-bottom: 7px;
-}
-
-.formWrapper .inputField input{
-    width: 100%;
-    padding: 2% 0;
-    font-size: 14px;
-}
-.formWrapper .inputField label{
-    font-size: 17px;
-}
-.formWrapper input[type="submit"]{
-    font-family: 'dosis';
-    font-size: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-.formWrapper input[type="submit"]:hover{
-    background-color: darkgray;
-    
 }
 
 @media(max-width:600px){
     .formContainer{
         width:95%
-    }
-    .formWrapper{
-        width:95%;
     }
     .pageContent{
         padding: 20px;
