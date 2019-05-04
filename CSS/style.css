@@ -1,15 +1,23 @@
 /*STYLING FOR QUICK CREDIT WEBSITE */
 body{
-	color: white;
+	color: black;
 	font-family: 'dosis';
     font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
+html { 
+  background: url(/images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* wrapper for page content*/
 .pageContent{
-    background-color: rgba(169, 169, 169, 0.17);
+    background-color: rgba(87, 99, 109, 0.83);
     padding: 7px;
     max-width: 800px;
     text-align: justify;
@@ -18,14 +26,13 @@ body{
 }
 /* sign-in and sign-up forms*/
 .formContainer{
-    background-color: rgba(169, 169, 169, 0.26);
+    background-color: rgba(87, 99, 109, 0.83);
     padding: 0px 15px 15px 15px;
     max-width: 500px;
     margin: 0 auto;
     border-radius: 30px;
 }
 .formContainer h2{
-    color: chocolate;
     text-align: center;
     font-weight: 200;
 }
@@ -54,54 +61,19 @@ body{
 } 
 
 /* Large screens */
-@media (min-width: 1280px){
-    html { 
-  background: url(../images/background.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+@media (min-width: 600px){
+
     /* Acknowledge icons author only when the icons are visible */
     #attrib{
     display: none;
-}
-}
-
-@media (min-width: 850px) and (max-width: 1279px) {
-    html{
-        background: url(../images/backgroundMax800.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        
-    } 
+    }
 }
 
-@media (min-width: 601px) and (max-width: 849px) {
-    html{
-        background: url(../images/backgroundSmallScreen.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        
-    } 
-    #attrib{
-    display: none;
-}
 
-}
+
     /* small screens */
     @media (max-width: 600px){
-        html{
-            background: url(../images/smallScreenBkg.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;        
-    }
+
         #slogan{
             display: none;
         } 
@@ -143,7 +115,7 @@ body{
 /* for small screens, use icons instead of text in menu bar */    
 #smallScreenMenuBar{
     height: 55px;
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0.65);
 }
 #topbar{
     height: 85px;
@@ -158,6 +130,7 @@ body{
 }
 
 #slogan{ 
+    color: white;
     float: left;
     font-size: 18pt;
     line-height: 0px;
@@ -170,7 +143,7 @@ body{
 
     #menu_bar{
         height: 50px;
-        background-color: darkgray;
+        background-color: rgba(169, 169, 169, 0.65);;
     }
 
     #punch_line{
@@ -260,7 +233,7 @@ body{
 }
 
 .msg a{
-    color: chocolate;
+    color: white;
 }
 .msg a:hover{
     text-transform: uppercase;
@@ -339,6 +312,12 @@ body{
     background-color: rgba(210, 105, 30, 0.29)
 }
 
+a{
+    color: white;
+}
+#attrib{
+    font-size: 14px;
+}
 
 
 
